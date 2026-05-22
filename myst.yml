@@ -1,0 +1,71 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 8c6018b5-d1c0-4f91-9572-2631fb23284a
+  authors: Luis Jimenez, PhD
+  github: luisjexp/luisjwebpage
+  jupyter:
+    binder:
+      repo: luisjexp/luisjwebpage
+      provider: github
+      ref: main
+      
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: pg__LANDING.md
+
+    - title: Visual Illusions
+      children:
+        - file: chapter_illusions/pg__landing.md
+        - file: chapter_illusions/pg_git_herman.md
+        - file: chapter_illusions/pg_git_tilt.md
+        - file: chapter_illusions/pg_git_mae.md
+        - file: chapter_illusions/pg_ambiguity_inference.md
+        # - file: chapter_illusions/pg_sacnas_git_crashdemo.md
+
+    - title: Visual Neuroscience
+      children:
+        - file: chapter_neuroscience/pg_notion_ori_tuned_networks.ipynb
+        - file: chapter_neuroscience/pg_neurons_as_feature_detectors/pg_neurons_as_feature_detectors.md
+        - file: chapter_neuroscience/pg_measuring_rfs.md
+        - file: chapter_neuroscience/pg_dlr_scm.md
+        - file: chapter_neuroscience/pg_retina_pathway.ipynb
+        - file: chapter_neuroscience/pg_retina_cscells.ipynb
+        - file: chapter_neuroscience/pg_retina_input_link2powerpoint.md
+
+
+    - title: Motion Capture using LSTMs
+      children:
+        - file: chapter_motion_lstm/pg__intro.md
+        - file: chapter_motion_lstm/pg_normalize.ipynb
+        - file: chapter_motion_lstm/pg_motionenergy.ipynb
+        - file: chapter_motion_lstm/pg_feature_extraction.ipynb
+        - file: chapter_motion_lstm/pg_modeling.ipynb
+
+    - title: Prompting Experiments with LLMs
+      children:
+        - file: chapter_llm_behavior/pg__intro.md
+
+    - title: Miscellaneous
+      children:  
+        - file: chapter_approach/pg_02_approaches.md
+        - file: pg_knowledgerep.md
+
+  bibliography:
+    - chapter_approach/pg__references.bib
+
+
+
+site:
+  template: book-theme
+  # actions:
+  #   - title: A URL
+  #     url: /pg_home_aboutme
+    # children:
+    # - title: About Me
+    #   url: /pg_home_aboutme
+    # - title: page 2
+
+  # options:
+  #   favicon: offrgc.gif
+  #   logo: site_logo.png

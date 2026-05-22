@@ -1,0 +1,6 @@
+[build]
+command = "myst build --html --strict"
+publish = "_build/html"
+
+[build.environment]
+PYTHON_VERSION = "3.12"
