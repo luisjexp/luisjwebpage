@@ -4,3 +4,4 @@ jupyterlab_widgets
 matplotlib
 numpy
 pandas
+jinja2

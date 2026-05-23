@@ -1,0 +1,7 @@
+/* Hide the in-page execution toolbar on the Motion LSTM notebook pages. */
+body:has(a[aria-current="page"][href="/pg-normalize"]) .myst-jp-nb-toolbar,
+body:has(a[aria-current="page"][href="/pg-motionenergy"]) .myst-jp-nb-toolbar,
+body:has(a[aria-current="page"][href="/pg-feature-extraction"]) .myst-jp-nb-toolbar,
+body:has(a[aria-current="page"][href="/pg-modeling"]) .myst-jp-nb-toolbar {
+  display: none !important;
+}

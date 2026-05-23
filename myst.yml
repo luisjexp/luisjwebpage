@@ -58,6 +58,8 @@ project:
 
 site:
   template: book-theme
+  options:
+    style: assets/myst-overrides.css
   # actions:
   #   - title: A URL
   #     url: /pg_home_aboutme
