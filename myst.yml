@@ -4,12 +4,7 @@ project:
   id: 8c6018b5-d1c0-4f91-9572-2631fb23284a
   authors: Luis Jimenez, PhD
   github: luisjexp/luisjwebpage
-  jupyter:
-    binder:
-      repo: luisjexp/luisjwebpage
-      provider: github
-      ref: main
-      
+
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: pg__LANDING.md
@@ -58,8 +53,6 @@ project:
 
 site:
   template: book-theme
-  options:
-    style: assets/myst-overrides.css
   # actions:
   #   - title: A URL
   #     url: /pg_home_aboutme
