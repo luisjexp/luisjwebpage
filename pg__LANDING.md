@@ -7,20 +7,19 @@ site:
 
 ---
 
-+++ {"kind": "centered"}
-<!-- +++ {"kind": "justified"} -->
 
-Hello
++++ {"kind": "justified"}
+
+Hello!
 # Luis Jiménez
 _Computational Neuroscientist_ \
 _Co-founder of [Bregma Technologies](https://bregmatech.com)_ 
 
-<!-- ```{figure} prettyblue.png
-:label: myFigure
-:alt: Sunset at the beach
-:align: left
-:width: 30px
-``` -->
+{button}`Linkedin <https://www.linkedin.com/in/luisjmnz>`
+{button}`Github <https://github.com/luisjexp>`
+{button}`Bregma Tech <https://bregmatech.com>`
+
+
 +++
 
 ---
@@ -56,13 +55,10 @@ Knowledge representation using nodes, edges, and simple reasoning over graphs.
 
 :::::
 
-[My GitHub](https://github.com/luisjexp) |
-[My LinkedIn](https://www.linkedin.com/in/luisjmnz)
-
 ---
 ## More about [Bregma Technologies](https://bregmatech.com)
 
-_Bregma Technologies develops neuroscience-inspired tools for adaptive portfolio rebalancing and financial decision-making. Learn more by visiting [www.bregmatech.com](https://bregmatech.com) and follow us on [Linkedin](https://www.linkedin.com/company/bregmatech/)._
+_Bregma Technologies develops brain-inspired tools for portfolio management and financial decision-making. Learn more by visiting [www.bregmatech.com](https://bregmatech.com) and follow us on [Linkedin](https://www.linkedin.com/company/bregmatech/)._
 
 
 ---
