@@ -45,6 +45,8 @@ project:
       children:  
         - file: chapter_approach/pg_02_approaches.md
         - file: pg_knowledgerep.md
+        - file: chapter_infostreamgraph\pg_infostream.md
+
 
   bibliography:
     - chapter_approach/pg__references.bib
