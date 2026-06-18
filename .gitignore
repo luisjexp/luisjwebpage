@@ -5,6 +5,9 @@ dist/
 docs/_build/
 /site/
 *.slides.html
+.myst/
+.jupyter_cache/
+html_locked*/
 
 # Project scratch / local working folders
 assets_building/

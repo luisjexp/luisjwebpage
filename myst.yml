@@ -41,11 +41,11 @@ project:
       children:
         - file: chapter_llm_behavior/pg__intro.md
 
-    - title: Miscellaneous
+    - title: Networks Miscellaneous
       children:  
+        - file: chapter_infostreamgraph/pg_infostream.md
         - file: chapter_approach/pg_02_approaches.md
         - file: pg_knowledgerep.md
-        - file: chapter_infostreamgraph\pg_infostream.md
 
 
   bibliography:

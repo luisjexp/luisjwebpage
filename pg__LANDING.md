@@ -35,10 +35,10 @@ Perception demos, explanations, and visual examples.
 ::::
 
 ::::{card}
-{button}`Visual Neuroscience </pg-notion-ori-tuned-networks>`
+{button}`Graph Knowledge </pg_knowledgerep>`
 ^^^
-The early visual system and neural coding notes.
-::::
+Knowledge representation using nodes, edges, and simple reasoning over graphs. 
+:::: 
 
 ::::{card}
 {button}`Motion tracking & LSTMs </pg-intro>`
@@ -46,12 +46,13 @@ The early visual system and neural coding notes.
 predicting cognitive states, LSTMs, video preprocessing, motion-feature extraction. 
 ::::
 
-
 ::::{card}
-{button}`Graph Knowledge </pg_knowledgerep>`
+{button}`Visual Neuroscience </pg-notion-ori-tuned-networks>`
 ^^^
-Knowledge representation using nodes, edges, and simple reasoning over graphs. 
-:::: 
+The early visual system and neural coding notes.
+::::
+
+
 
 :::::
 
